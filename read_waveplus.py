@@ -31,6 +31,7 @@ import sys
 import time
 import struct
 import tableprint
+import csv
 
 # ===============================
 # Script guards for correct usage
@@ -238,7 +239,9 @@ try:
         if (Mode=='terminal'):
             print tableprint.row(data, width=12)
         elif (Mode=='pipe'):
-            print data
+            with open("output.csv", "wb") as f:
+                writer = csv.writer(f)
+                writer.writerows(data)
         
         waveplus.disconnect()
         
