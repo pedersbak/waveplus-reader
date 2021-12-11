@@ -113,7 +113,7 @@ class WavePlus():
     def connect(self):
         # Auto-discover device on first connection
         if (self.MacAddr is None):
-            scanner     = Scanner().withDelegate(DefaultDelegate())
+            scanner     = Scanner(1).withDelegate(DefaultDelegate())
             searchCount = 0
             while self.MacAddr is None and searchCount < 50:
                 devices      = scanner.scan(0.1) # 0.1 seconds scan period
