@@ -32,6 +32,7 @@ import time
 import struct
 import tableprint
 import csv
+import datetime
 
 # ===============================
 # Script guards for correct usage
@@ -234,7 +235,7 @@ try:
         VOC_lvl      = str(sensors.getValue(SENSOR_IDX_VOC_LVL))              + " " + str(sensors.getUnit(SENSOR_IDX_VOC_LVL))
         
         # Print data
-        data = [humidity, radon_st_avg, radon_lt_avg, temperature, pressure, CO2_lvl, VOC_lvl]
+        data = [datetime.datetime.now(), humidity, radon_st_avg, radon_lt_avg, temperature, pressure, CO2_lvl, VOC_lvl]
         
         if (Mode=='terminal'):
             print tableprint.row(data, width=12)
