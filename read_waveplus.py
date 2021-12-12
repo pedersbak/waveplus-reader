@@ -235,14 +235,18 @@ try:
         VOC_lvl      = str(sensors.getValue(SENSOR_IDX_VOC_LVL))              + " " + str(sensors.getUnit(SENSOR_IDX_VOC_LVL))
         
         # Print data
-        data = [datetime.datetime.now(), humidity, radon_st_avg, radon_lt_avg, temperature, pressure, CO2_lvl, VOC_lvl]
-        
+        data = [str(datetime.datetime.now()), humidity, radon_st_avg, radon_lt_avg, temperature, pressure, CO2_lvl, VOC_lvl]
+        jsondata = '{"time":"{}, ' \
+                   '"Radon ST avg":""{},' \
+                   '"Radon LT avg":"{}",' \
+                   '"Temperature":"{}",' \
+                   '"Pressure":"{}",' \
+                   '"CO2 level":"{}",' \
+                   '"VOC level":"{}"}'.format(data[0],data[1],data[2],data[3],data[4],data[5],data[6])
         if (Mode=='terminal'):
             print tableprint.row(data, width=12)
         elif (Mode=='pipe'):
-            with open("output.csv", "wb") as f:
-                writer = csv.writer(f)
-                writer.writerows(data)
+            print(jsondata)
         
         waveplus.disconnect()
         
