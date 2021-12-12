@@ -238,7 +238,7 @@ try:
         data = [str(datetime.datetime.now()), humidity, radon_st_avg, radon_lt_avg, temperature, pressure, CO2_lvl, VOC_lvl]
         jsondata = '{"time":"{},' \
                    '"Humidity":"{}",' \
-                   '"Radon ST avg":""{},' \
+                   '"Radon ST avg":"{}",' \
                    '"Radon LT avg":"{}",' \
                    '"Temperature":"{}",' \
                    '"Pressure":"{}",' \
