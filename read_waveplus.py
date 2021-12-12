@@ -246,7 +246,7 @@ try:
         if (Mode=='terminal'):
             print tableprint.row(data, width=12)
         elif (Mode=='pipe'):
-            print(jsondata)
+            print(str(jsondata))
         
         waveplus.disconnect()
         
