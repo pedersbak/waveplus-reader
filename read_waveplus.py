@@ -236,14 +236,14 @@ try:
         
         # Print data
         data = [str(datetime.datetime.now()), humidity, radon_st_avg, radon_lt_avg, temperature, pressure, CO2_lvl, VOC_lvl]
-        jsondata = '{"time":"{},' \
+        jsondata = '"time":"{},' \
                    '"Humidity":"{}",' \
                    '"Radon ST avg":"{}",' \
                    '"Radon LT avg":"{}",' \
                    '"Temperature":"{}",' \
                    '"Pressure":"{}",' \
                    '"CO2 level":"{}",' \
-                   '"VOC level":"{}"}'.format(data[0],data[1],data[2],data[3],data[4],data[5],data[6], data[7])
+                   '"VOC level":"{}"'.format(data[0],data[1],data[2],data[3],data[4],data[5],data[6], data[7])
         if (Mode=='terminal'):
             print tableprint.row(data, width=12)
         elif (Mode=='pipe'):
