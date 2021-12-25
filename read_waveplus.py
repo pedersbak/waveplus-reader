@@ -244,14 +244,21 @@ try:
                '"Temperature":"{}",' \
                '"Pressure":"{}",' \
                '"CO2_level":"{}",' \
-               '"VOC level":"{}"'.format(data[0],data[1],re.search(numeric_pattern,data[2]).group(0),data[3],data[4],data[5],re.search(numeric_pattern,data[6]).group(0), data[7])
+               '"VOC level":"{}"'.format(re.search(numeric_pattern,data[0]).group(0),
+                                         re.search(numeric_pattern,data[1]).group(0),
+                                         re.search(numeric_pattern,data[2]).group(0),
+                                         re.search(numeric_pattern,data[3]).group(0),
+                                         re.search(numeric_pattern,data[4]).group(0),
+                                         re.search(numeric_pattern,data[5]).group(0),
+                                         re.search(numeric_pattern,data[6]).group(0),
+                                         re.search(numeric_pattern,data[7]).group(0))
     jsondata = '{'+jsondata+'}'
     if 'ERROR' not in jsondata:
         if (Mode=='terminal'):
             print tableprint.row(data, width=12)
         elif (Mode=='pipe'):
             print(str(jsondata))
-     
+
     waveplus.disconnect()
         
     #     time.sleep(SamplePeriod)
