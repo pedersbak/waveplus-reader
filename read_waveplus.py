@@ -33,7 +33,7 @@ import struct
 import tableprint
 import csv
 import datetime
-
+import re
 # ===============================
 # Script guards for correct usage
 # ===============================
@@ -218,42 +218,43 @@ try:
     elif (Mode=='pipe'):
         print header
         
-    while True:
+    #while True:
         
-        waveplus.connect()
+    waveplus.connect()
         
-        # read values
-        sensors = waveplus.read()
+    # read values
+    sensors = waveplus.read()
         
-        # extract
-        humidity     = str(sensors.getValue(SENSOR_IDX_HUMIDITY))             + " " + str(sensors.getUnit(SENSOR_IDX_HUMIDITY))
-        radon_st_avg = str(sensors.getValue(SENSOR_IDX_RADON_SHORT_TERM_AVG)) + " " + str(sensors.getUnit(SENSOR_IDX_RADON_SHORT_TERM_AVG))
-        radon_lt_avg = str(sensors.getValue(SENSOR_IDX_RADON_LONG_TERM_AVG))  + " " + str(sensors.getUnit(SENSOR_IDX_RADON_LONG_TERM_AVG))
-        temperature  = str(sensors.getValue(SENSOR_IDX_TEMPERATURE))          + " " + str(sensors.getUnit(SENSOR_IDX_TEMPERATURE))
-        pressure     = str(sensors.getValue(SENSOR_IDX_REL_ATM_PRESSURE))     + " " + str(sensors.getUnit(SENSOR_IDX_REL_ATM_PRESSURE))
-        CO2_lvl      = str(sensors.getValue(SENSOR_IDX_CO2_LVL))              + " " + str(sensors.getUnit(SENSOR_IDX_CO2_LVL))
-        VOC_lvl      = str(sensors.getValue(SENSOR_IDX_VOC_LVL))              + " " + str(sensors.getUnit(SENSOR_IDX_VOC_LVL))
+    # extract
+    humidity     = str(sensors.getValue(SENSOR_IDX_HUMIDITY))             + " " + str(sensors.getUnit(SENSOR_IDX_HUMIDITY))
+    radon_st_avg = str(sensors.getValue(SENSOR_IDX_RADON_SHORT_TERM_AVG)) + " " + str(sensors.getUnit(SENSOR_IDX_RADON_SHORT_TERM_AVG))
+    radon_lt_avg = str(sensors.getValue(SENSOR_IDX_RADON_LONG_TERM_AVG))  + " " + str(sensors.getUnit(SENSOR_IDX_RADON_LONG_TERM_AVG))
+    temperature  = str(sensors.getValue(SENSOR_IDX_TEMPERATURE))          + " " + str(sensors.getUnit(SENSOR_IDX_TEMPERATURE))
+    pressure     = str(sensors.getValue(SENSOR_IDX_REL_ATM_PRESSURE))     + " " + str(sensors.getUnit(SENSOR_IDX_REL_ATM_PRESSURE))
+    CO2_lvl      = str(sensors.getValue(SENSOR_IDX_CO2_LVL))              + " " + str(sensors.getUnit(SENSOR_IDX_CO2_LVL))
+    VOC_lvl      = str(sensors.getValue(SENSOR_IDX_VOC_LVL))              + " " + str(sensors.getUnit(SENSOR_IDX_VOC_LVL))
+    
+    numeric_pattern='^\d*\.*\d*'    
+    # Print data
+    data = [str(datetime.datetime.now()), humidity, radon_st_avg, radon_lt_avg, temperature, pressure, CO2_lvl, VOC_lvl]
+    jsondata = '"time":"{}",' \
+               '"Humidity":"{}",' \
+               '"Radon":{},' \
+               '"Radon_48h_avg":"{}",' \
+               '"Temperature":"{}",' \
+               '"Pressure":"{}",' \
+               '"CO2_level":"{}",' \
+               '"VOC level":"{}"'.format(data[0],data[1],re.search(numeric_pattern,data[2]).group(0),data[3],data[4],data[5],re.search(numeric_pattern,data[6]).group(0), data[7])
+    jsondata = '{'+jsondata+'}'
+    if 'ERROR' not in jsondata:
+        if (Mode=='terminal'):
+            print tableprint.row(data, width=12)
+        elif (Mode=='pipe'):
+            print(str(jsondata))
+     
+    waveplus.disconnect()
         
-        # Print data
-        data = [str(datetime.datetime.now()), humidity, radon_st_avg, radon_lt_avg, temperature, pressure, CO2_lvl, VOC_lvl]
-        jsondata = '"time":"{},' \
-                   '"Humidity":"{}",' \
-                   '"Radon ST avg":"{}",' \
-                   '"Radon LT avg":"{}",' \
-                   '"Temperature":"{}",' \
-                   '"Pressure":"{}",' \
-                   '"CO2 level":"{}",' \
-                   '"VOC level":"{}"'.format(data[0],data[1],data[2],data[3],data[4],data[5],data[6], data[7])
-        jsondata = '{'+jsondata+'}'
-        if 'ERROR' not in jsondata:
-            if (Mode=='terminal'):
-                print tableprint.row(data, width=12)
-            elif (Mode=='pipe'):
-                print(str(jsondata))
-
-        waveplus.disconnect()
-        
-        time.sleep(SamplePeriod)
+    #     time.sleep(SamplePeriod)
             
 finally:
     waveplus.disconnect()
