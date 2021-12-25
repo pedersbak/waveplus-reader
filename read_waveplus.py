@@ -245,11 +245,12 @@ try:
                    '"CO2 level":"{}",' \
                    '"VOC level":"{}"'.format(data[0],data[1],data[2],data[3],data[4],data[5],data[6], data[7])
         jsondata = '{'+jsondata+'}'
-        if (Mode=='terminal'):
-            print tableprint.row(data, width=12)
-        elif (Mode=='pipe'):
-            print(str(jsondata))
-        
+        if 'ERROR' not in jsondata:
+            if (Mode=='terminal'):
+                print tableprint.row(data, width=12)
+            elif (Mode=='pipe'):
+                print(str(jsondata))
+
         waveplus.disconnect()
         
         time.sleep(SamplePeriod)
