@@ -39,27 +39,27 @@ import re
 # ===============================
 
 if len(sys.argv) < 3:
-    print ("ERROR: Missing input argument SN or SAMPLE-PERIOD.")
-    print ("USAGE: read_waveplus.py SN SAMPLE-PERIOD [pipe > yourfile.txt]")
-    print ("    where SN is the 10-digit serial number found under the magnetic backplate of your Wave Plus.")
-    print ("    where SAMPLE-PERIOD is the time in seconds between reading the current values.")
-    print ("    where [pipe > yourfile.txt] is optional and specifies that you want to pipe your results to yourfile.txt.")
+    print "ERROR: Missing input argument SN or SAMPLE-PERIOD."
+    print "USAGE: read_waveplus.py SN SAMPLE-PERIOD [pipe > yourfile.txt]"
+    print "    where SN is the 10-digit serial number found under the magnetic backplate of your Wave Plus."
+    print "    where SAMPLE-PERIOD is the time in seconds between reading the current values."
+    print "    where [pipe > yourfile.txt] is optional and specifies that you want to pipe your results to yourfile.txt."
     sys.exit(1)
 
 if sys.argv[1].isdigit() is not True or len(sys.argv[1]) != 10:
-    print ("ERROR: Invalid SN format.")
-    print ("USAGE: read_waveplus.py SN SAMPLE-PERIOD [pipe > yourfile.txt]")
-    print ("    where SN is the 10-digit serial number found under the magnetic backplate of your Wave Plus.")
-    print ("    where SAMPLE-PERIOD is the time in seconds between reading the current values.")
-    print ("    where [pipe > yourfile.txt] is optional and specifies that you want to pipe your results to yourfile.txt.")
+    print "ERROR: Invalid SN format."
+    print "USAGE: read_waveplus.py SN SAMPLE-PERIOD [pipe > yourfile.txt]"
+    print "    where SN is the 10-digit serial number found under the magnetic backplate of your Wave Plus."
+    print "    where SAMPLE-PERIOD is the time in seconds between reading the current values."
+    print "    where [pipe > yourfile.txt] is optional and specifies that you want to pipe your results to yourfile.txt."
     sys.exit(1)
 
 if sys.argv[2].isdigit() is not True or int(sys.argv[2])<0:
-    print ("ERROR: Invalid SAMPLE-PERIOD. Must be a numerical value larger than zero.")
-    print ("USAGE: read_waveplus.py SN SAMPLE-PERIOD [pipe > yourfile.txt]")
-    print ("    where SN is the 10-digit serial number found under the magnetic backplate of your Wave Plus.")
-    print ("    where SAMPLE-PERIOD is the time in seconds between reading the current values.")
-    print ("    where [pipe > yourfile.txt] is optional and specifies that you want to pipe your results to yourfile.txt.")
+    print "ERROR: Invalid SAMPLE-PERIOD. Must be a numerical value larger than zero."
+    print "USAGE: read_waveplus.py SN SAMPLE-PERIOD [pipe > yourfile.txt]"
+    print "    where SN is the 10-digit serial number found under the magnetic backplate of your Wave Plus."
+    print "    where SAMPLE-PERIOD is the time in seconds between reading the current values."
+    print "    where [pipe > yourfile.txt] is optional and specifies that you want to pipe your results to yourfile.txt."
     sys.exit(1)
 
 if len(sys.argv) > 3:
@@ -68,11 +68,11 @@ else:
     Mode = 'terminal' # (default) print to terminal 
 
 if Mode!='pipe' and Mode!='terminal':
-    print ("ERROR: Invalid piping method.")
-    print ("USAGE: read_waveplus.py SN SAMPLE-PERIOD [pipe > yourfile.txt]")
-    print ("    where SN is the 10-digit serial number found under the magnetic backplate of your Wave Plus.")
-    print ("    where SAMPLE-PERIOD is the time in seconds between reading the current values.")
-    print ("    where [pipe > yourfile.txt] is optional and specifies that you want to pipe your results to yourfile.txt.")
+    print "ERROR: Invalid piping method."
+    print "USAGE: read_waveplus.py SN SAMPLE-PERIOD [pipe > yourfile.txt]"
+    print "    where SN is the 10-digit serial number found under the magnetic backplate of your Wave Plus."
+    print "    where SAMPLE-PERIOD is the time in seconds between reading the current values."
+    print "    where [pipe > yourfile.txt] is optional and specifies that you want to pipe your results to yourfile.txt."
     sys.exit(1)
 
 SerialNumber = int(sys.argv[1])
@@ -118,7 +118,7 @@ class WavePlus():
             scanner     = Scanner(1).withDelegate(DefaultDelegate())
             searchCount = 0
             while self.MacAddr is None and searchCount < 50:
-                devices      = scanner.scan(1) # 1 second scan period timeout
+                devices      = scanner.scan(0.1) # 0.1 seconds scan period
                 searchCount += 1
                 for dev in devices:
                     ManuData = dev.getValueText(255)
@@ -128,10 +128,10 @@ class WavePlus():
                         break # exit for loop
             
             if (self.MacAddr is None):
-                print ("ERROR: Could not find device.")
-                print ("GUIDE: (1) Please verify the serial number.")
-                print ("       (2) Ensure that the device is advertising.")
-                print ("       (3) Retry connection.")
+                print "ERROR: Could not find device."
+                print "GUIDE: (1) Please verify the serial number."
+                print "       (2) Ensure that the device is advertising."
+                print "       (3) Retry connection."
                 sys.exit(1)
         
         # Connect to device
@@ -142,7 +142,7 @@ class WavePlus():
         
     def read(self):
         if (self.curr_val_char is None):
-            print ("ERROR: Devices are not connected.")
+            print "ERROR: Devices are not connected."
             sys.exit(1)            
         rawdata = self.curr_val_char.read()
         rawdata = struct.unpack('<BBBBHHHHHHHH', rawdata)
@@ -186,8 +186,8 @@ class Sensors():
             self.sensor_data[SENSOR_IDX_CO2_LVL]              = rawData[8]*1.0
             self.sensor_data[SENSOR_IDX_VOC_LVL]              = rawData[9]*1.0
         else:
-            print ("ERROR: Unknown sensor version.\n")
-            print ("GUIDE: Contact Airthings for support.\n")
+            print "ERROR: Unknown sensor version.\n"
+            print "GUIDE: Contact Airthings for support.\n"
             sys.exit(1)
    
     def conv2radon(self, radon_raw):
@@ -207,31 +207,21 @@ try:
     waveplus = WavePlus(SerialNumber)
     
     if (Mode=='terminal'):
-        print ("\nPress ctrl+C to exit program\n")
+        print "\nPress ctrl+C to exit program\n"
     
-    print ("Device serial number: %s" %(SerialNumber))
+    print "Device serial number: %s" %(SerialNumber)
     
     header = ['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
     
     if (Mode=='terminal'):
-        print (tableprint.header(header, width=12))
+        print tableprint.header(header, width=12)
     elif (Mode=='pipe'):
-        #print (header)
-        pass
-
-    success = False
-    count=0
-    # Try 5 times to connect
-    while not success:
-        count+=1
-        try:
-            waveplus.connect()
-            success = True
-        except Exception as e:
-            if count > 5:
-                sys.exit(1)
-            time.sleep(5)
-
+        print header
+        
+    #while True:
+        
+    waveplus.connect()
+        
     # read values
     sensors = waveplus.read()
         
@@ -243,7 +233,7 @@ try:
     pressure     = str(sensors.getValue(SENSOR_IDX_REL_ATM_PRESSURE))     + " " + str(sensors.getUnit(SENSOR_IDX_REL_ATM_PRESSURE))
     CO2_lvl      = str(sensors.getValue(SENSOR_IDX_CO2_LVL))              + " " + str(sensors.getUnit(SENSOR_IDX_CO2_LVL))
     VOC_lvl      = str(sensors.getValue(SENSOR_IDX_VOC_LVL))              + " " + str(sensors.getUnit(SENSOR_IDX_VOC_LVL))
-    #print(temperature)
+    
     numeric_pattern='^\d*\.*\d*'    
     # Print data
     data = [str(datetime.datetime.now()), humidity, radon_st_avg, radon_lt_avg, temperature, pressure, CO2_lvl, VOC_lvl]
@@ -254,7 +244,7 @@ try:
                '"Temperature":"{}",' \
                '"Pressure":"{}",' \
                '"CO2_level":"{}",' \
-               '"VOC level":"{}"'.format(data[0],
+               '"VOC level":"{}"'.format(re.search(numeric_pattern,data[0]).group(0),
                                          re.search(numeric_pattern,data[1]).group(0),
                                          re.search(numeric_pattern,data[2]).group(0),
                                          re.search(numeric_pattern,data[3]).group(0),
@@ -265,7 +255,7 @@ try:
     jsondata = '{'+jsondata+'}'
     if 'ERROR' not in jsondata:
         if (Mode=='terminal'):
-            print (tableprint.row(data, width=12))
+            print tableprint.row(data, width=12)
         elif (Mode=='pipe'):
             print(str(jsondata))
 

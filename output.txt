@@ -1,0 +1,174 @@
+Device serial number: 2930026532
+['Time', 'Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+['2021-12-12 09:00:05', '41.5 %rH', '69 Bq/m3', '71 Bq/m3', '25.2 degC', '1015.16 hPa', '839.0 ppm', '212.0 ppb']
+Device serial number: 2930026532
+['Time', 'Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+Device serial number: 2930026532
+['Time', 'Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+['2021-12-12 09:20:08', '40.5 %rH', '69 Bq/m3', '71 Bq/m3', '25.14 degC', '1014.9 hPa', '806.0 ppm', '205.0 ppb']
+Device serial number: 2930026532
+['Time', 'Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+['2021-12-12 09:30:07', '40.0 %rH', '69 Bq/m3', '71 Bq/m3', '25.24 degC', '1014.84 hPa', '777.0 ppm', '195.0 ppb']
+Device serial number: 2930026532
+['Time', 'Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+['2021-12-12 09:40:05', '39.0 %rH', '69 Bq/m3', '71 Bq/m3', '25.28 degC', '1014.82 hPa', '754.0 ppm', '181.0 ppb']
+Device serial number: 2930026532
+['Time', 'Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+['2021-12-12 09:50:05', '38.5 %rH', '68 Bq/m3', '71 Bq/m3', '25.33 degC', '1014.62 hPa', '741.0 ppm', '170.0 ppb']
+Device serial number: 2930026532
+['Time', 'Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+['2021-12-12 10:00:05', '37.5 %rH', '68 Bq/m3', '71 Bq/m3', '25.41 degC', '1014.62 hPa', '725.0 ppm', '161.0 ppb']
+Device serial number: 2930026532
+['Time', 'Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+['2021-12-12 10:10:06', '37.0 %rH', '68 Bq/m3', '71 Bq/m3', '25.47 degC', '1014.76 hPa', '701.0 ppm', '150.0 ppb']
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+{"time":"2021-12-12 10:30:03.888639,"Humidity":"36.0 %rH","Radon ST avg":"68 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"25.43 degC","Pressure":"1014.78 hPa","CO2 level":"676.0 ppm","VOC level":"133.0 ppb"}
+{"time":"2021-12-12 10:35:06.116527,"Humidity":"36.0 %rH","Radon ST avg":"68 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"25.42 degC","Pressure":"1014.74 hPa","CO2 level":"663.0 ppm","VOC level":"133.0 ppb"}
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+{"time":"2021-12-12 10:40:08.877826,"Humidity":"36.0 %rH","Radon ST avg":"68 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"25.42 degC","Pressure":"1014.66 hPa","CO2 level":"656.0 ppm","VOC level":"123.0 ppb"}
+{"time":"2021-12-12 10:45:11.198298,"Humidity":"35.5 %rH","Radon ST avg":"68 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"25.42 degC","Pressure":"1014.56 hPa","CO2 level":"647.0 ppm","VOC level":"108.0 ppb"}
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+{"time":"2021-12-12 10:50:03.893999,"Humidity":"35.5 %rH","Radon ST avg":"76 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"25.43 degC","Pressure":"1014.5 hPa","CO2 level":"645.0 ppm","VOC level":"106.0 ppb"}
+{"time":"2021-12-12 10:55:06.178061,"Humidity":"35.5 %rH","Radon ST avg":"76 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"25.43 degC","Pressure":"1014.52 hPa","CO2 level":"637.0 ppm","VOC level":"106.0 ppb"}
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+{"time":"2021-12-12 11:00:06.015943,"Humidity":"35.0 %rH","Radon ST avg":"76 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"25.44 degC","Pressure":"1014.42 hPa","CO2 level":"631.0 ppm","VOC level":"86.0 ppb"}
+{"time":"2021-12-12 11:00:07.332318,"Humidity":"35.0 %rH","Radon ST avg":"76 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"25.44 degC","Pressure":"1014.42 hPa","CO2 level":"631.0 ppm","VOC level":"86.0 ppb"}
+{"time":"2021-12-12 11:05:09.603760,"Humidity":"35.0 %rH","Radon ST avg":"76 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"25.44 degC","Pressure":"1014.38 hPa","CO2 level":"625.0 ppm","VOC level":"93.0 ppb"}
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+ERROR: Could not find device.
+GUIDE: (1) Please verify the serial number.
+       (2) Ensure that the device is advertising.
+       (3) Retry connection.
+{"time":"2021-12-12 11:10:11.795293,"Humidity":"35.0 %rH","Radon ST avg":"76 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"25.44 degC","Pressure":"1014.36 hPa","CO2 level":"624.0 ppm","VOC level":"91.0 ppb"}
+{"time":"2021-12-12 11:15:14.173194,"Humidity":"34.5 %rH","Radon ST avg":"76 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"25.43 degC","Pressure":"1014.42 hPa","CO2 level":"619.0 ppm","VOC level":"76.0 ppb"}
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+{"time":"2021-12-12 11:20:11.407093,"Humidity":"34.5 %rH","Radon ST avg":"76 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"25.3 degC","Pressure":"1014.36 hPa","CO2 level":"613.0 ppm","VOC level":"89.0 ppb"}
+{"time":"2021-12-12 11:20:16.262212,"Humidity":"34.5 %rH","Radon ST avg":"76 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"25.3 degC","Pressure":"1014.36 hPa","CO2 level":"613.0 ppm","VOC level":"89.0 ppb"}
+{"time":"2021-12-12 11:25:19.368819,"Humidity":"34.5 %rH","Radon ST avg":"76 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"25.19 degC","Pressure":"1014.3 hPa","CO2 level":"610.0 ppm","VOC level":"84.0 ppb"}
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+{"time":"2021-12-12 11:30:05.454069,"Humidity":"37.0 %rH","Radon ST avg":"76 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"25.1 degC","Pressure":"1014.2 hPa","CO2 level":"607.0 ppm","VOC level":"58.0 ppb"}
+{"time":"2021-12-12 11:30:21.385465,"Humidity":"37.0 %rH","Radon ST avg":"76 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"25.1 degC","Pressure":"1014.2 hPa","CO2 level":"607.0 ppm","VOC level":"58.0 ppb"}
+{"time":"2021-12-12 11:35:07.533517,"Humidity":"36.5 %rH","Radon ST avg":"76 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.99 degC","Pressure":"1014.26 hPa","CO2 level":"615.0 ppm","VOC level":"69.0 ppb"}
+{"time":"2021-12-12 11:35:23.545023,"Humidity":"36.5 %rH","Radon ST avg":"76 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.99 degC","Pressure":"1014.26 hPa","CO2 level":"615.0 ppm","VOC level":"69.0 ppb"}
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+{"time":"2021-12-12 11:40:05.199075,"Humidity":"37.5 %rH","Radon ST avg":"76 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.9 degC","Pressure":"1014.26 hPa","CO2 level":"628.0 ppm","VOC level":"71.0 ppb"}
+{"time":"2021-12-12 11:40:10.126295,"Humidity":"37.5 %rH","Radon ST avg":"76 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.9 degC","Pressure":"1014.26 hPa","CO2 level":"628.0 ppm","VOC level":"71.0 ppb"}
+{"time":"2021-12-12 11:40:58.940940,"Humidity":"37.5 %rH","Radon ST avg":"76 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.9 degC","Pressure":"1014.26 hPa","CO2 level":"628.0 ppm","VOC level":"71.0 ppb"}
+{"time":"2021-12-12 11:45:07.642030,"Humidity":"38.5 %rH","Radon ST avg":"76 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.83 degC","Pressure":"1014.28 hPa","CO2 level":"651.0 ppm","VOC level":"67.0 ppb"}
+{"time":"2021-12-12 11:45:12.502122,"Humidity":"38.5 %rH","Radon ST avg":"76 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.83 degC","Pressure":"1014.28 hPa","CO2 level":"651.0 ppm","VOC level":"67.0 ppb"}
+{"time":"2021-12-12 11:46:01.269082,"Humidity":"38.5 %rH","Radon ST avg":"76 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.83 degC","Pressure":"1014.28 hPa","CO2 level":"651.0 ppm","VOC level":"67.0 ppb"}
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+{"time":"2021-12-12 11:50:09.566177,"Humidity":"40.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.81 degC","Pressure":"1014.24 hPa","CO2 level":"713.0 ppm","VOC level":"67.0 ppb"}
+{"time":"2021-12-12 11:50:14.920017,"Humidity":"40.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.81 degC","Pressure":"1014.24 hPa","CO2 level":"713.0 ppm","VOC level":"67.0 ppb"}
+{"time":"2021-12-12 11:51:03.774343,"Humidity":"40.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.81 degC","Pressure":"1014.24 hPa","CO2 level":"713.0 ppm","VOC level":"67.0 ppb"}
+{"time":"2021-12-12 11:55:11.529239,"Humidity":"45.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.91 degC","Pressure":"1014.26 hPa","CO2 level":"742.0 ppm","VOC level":"46.0 ppb"}
+{"time":"2021-12-12 11:55:17.413126,"Humidity":"45.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.91 degC","Pressure":"1014.26 hPa","CO2 level":"742.0 ppm","VOC level":"46.0 ppb"}
+{"time":"2021-12-12 11:56:06.161053,"Humidity":"45.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.91 degC","Pressure":"1014.26 hPa","CO2 level":"742.0 ppm","VOC level":"46.0 ppb"}
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+ERROR: Could not find device.
+GUIDE: (1) Please verify the serial number.
+       (2) Ensure that the device is advertising.
+       (3) Retry connection.
+{"time":"2021-12-12 12:00:14.822149,"Humidity":"46.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.86 degC","Pressure":"1014.24 hPa","CO2 level":"750.0 ppm","VOC level":"101.0 ppb"}
+{"time":"2021-12-12 12:00:20.682273,"Humidity":"46.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.86 degC","Pressure":"1014.24 hPa","CO2 level":"750.0 ppm","VOC level":"101.0 ppb"}
+{"time":"2021-12-12 12:01:08.990277,"Humidity":"46.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.86 degC","Pressure":"1014.24 hPa","CO2 level":"750.0 ppm","VOC level":"101.0 ppb"}
+{"time":"2021-12-12 12:05:17.098514,"Humidity":"46.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.81 degC","Pressure":"1014.32 hPa","CO2 level":"745.0 ppm","VOC level":"138.0 ppb"}
+{"time":"2021-12-12 12:05:22.965381,"Humidity":"46.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.81 degC","Pressure":"1014.32 hPa","CO2 level":"745.0 ppm","VOC level":"138.0 ppb"}
+{"time":"2021-12-12 12:06:11.291932,"Humidity":"46.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.81 degC","Pressure":"1014.32 hPa","CO2 level":"745.0 ppm","VOC level":"138.0 ppb"}
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+{"time":"2021-12-12 12:10:05.465549,"Humidity":"46.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.74 degC","Pressure":"1014.3 hPa","CO2 level":"733.0 ppm","VOC level":"148.0 ppb"}
+{"time":"2021-12-12 12:10:19.442947,"Humidity":"46.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.74 degC","Pressure":"1014.3 hPa","CO2 level":"733.0 ppm","VOC level":"148.0 ppb"}
+{"time":"2021-12-12 12:10:25.311860,"Humidity":"46.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.74 degC","Pressure":"1014.3 hPa","CO2 level":"733.0 ppm","VOC level":"148.0 ppb"}
+{"time":"2021-12-12 12:11:14.101207,"Humidity":"46.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.74 degC","Pressure":"1014.3 hPa","CO2 level":"733.0 ppm","VOC level":"148.0 ppb"}
+{"time":"2021-12-12 12:15:07.669569,"Humidity":"46.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.68 degC","Pressure":"1014.3 hPa","CO2 level":"715.0 ppm","VOC level":"159.0 ppb"}
+{"time":"2021-12-12 12:15:21.669633,"Humidity":"46.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.68 degC","Pressure":"1014.3 hPa","CO2 level":"715.0 ppm","VOC level":"159.0 ppb"}
+{"time":"2021-12-12 12:15:28.539715,"Humidity":"46.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.68 degC","Pressure":"1014.3 hPa","CO2 level":"715.0 ppm","VOC level":"159.0 ppb"}
+{"time":"2021-12-12 12:16:16.310266,"Humidity":"46.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.68 degC","Pressure":"1014.3 hPa","CO2 level":"715.0 ppm","VOC level":"159.0 ppb"}
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+{"time":"2021-12-12 12:20:05.303665,"Humidity":"46.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.65 degC","Pressure":"1014.26 hPa","CO2 level":"695.0 ppm","VOC level":"166.0 ppb"}
+{"time":"2021-12-12 12:20:10.658397,"Humidity":"46.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.65 degC","Pressure":"1014.26 hPa","CO2 level":"695.0 ppm","VOC level":"166.0 ppb"}
+{"time":"2021-12-12 12:20:24.096502,"Humidity":"46.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.65 degC","Pressure":"1014.26 hPa","CO2 level":"695.0 ppm","VOC level":"166.0 ppb"}
+{"time":"2021-12-12 12:20:30.473970,"Humidity":"46.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.65 degC","Pressure":"1014.26 hPa","CO2 level":"695.0 ppm","VOC level":"166.0 ppb"}
+{"time":"2021-12-12 12:21:19.245667,"Humidity":"46.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.65 degC","Pressure":"1014.26 hPa","CO2 level":"695.0 ppm","VOC level":"166.0 ppb"}
+{"time":"2021-12-12 12:25:07.316527,"Humidity":"45.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.64 degC","Pressure":"1014.16 hPa","CO2 level":"684.0 ppm","VOC level":"191.0 ppb"}
+{"time":"2021-12-12 12:25:32.885577,"Humidity":"45.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.64 degC","Pressure":"1014.16 hPa","CO2 level":"684.0 ppm","VOC level":"191.0 ppb"}
+{"time":"2021-12-12 12:26:21.664969,"Humidity":"45.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.64 degC","Pressure":"1014.16 hPa","CO2 level":"684.0 ppm","VOC level":"191.0 ppb"}
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+{"time":"2021-12-12 12:30:09.169704,"Humidity":"45.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.69 degC","Pressure":"1014.18 hPa","CO2 level":"674.0 ppm","VOC level":"165.0 ppb"}
+{"time":"2021-12-12 12:30:35.263531,"Humidity":"45.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.69 degC","Pressure":"1014.18 hPa","CO2 level":"674.0 ppm","VOC level":"165.0 ppb"}
+{"time":"2021-12-12 12:31:24.522744,"Humidity":"45.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.69 degC","Pressure":"1014.18 hPa","CO2 level":"674.0 ppm","VOC level":"165.0 ppb"}
+{"time":"2021-12-12 12:35:12.027612,"Humidity":"45.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.73 degC","Pressure":"1014.16 hPa","CO2 level":"661.0 ppm","VOC level":"170.0 ppb"}
+{"time":"2021-12-12 12:35:37.610206,"Humidity":"45.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.73 degC","Pressure":"1014.16 hPa","CO2 level":"661.0 ppm","VOC level":"170.0 ppb"}
+{"time":"2021-12-12 12:36:27.433199,"Humidity":"45.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.73 degC","Pressure":"1014.16 hPa","CO2 level":"661.0 ppm","VOC level":"170.0 ppb"}
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+{"time":"2021-12-12 12:40:14.557487,"Humidity":"44.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.67 degC","Pressure":"1014.16 hPa","CO2 level":"654.0 ppm","VOC level":"169.0 ppb"}
+{"time":"2021-12-12 12:45:16.781161,"Humidity":"44.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.6 degC","Pressure":"1014.16 hPa","CO2 level":"650.0 ppm","VOC level":"181.0 ppb"}
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+{"time":"2021-12-12 12:50:05.037489,"Humidity":"43.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.55 degC","Pressure":"1014.0 hPa","CO2 level":"640.0 ppm","VOC level":"163.0 ppb"}
+{"time":"2021-12-12 12:50:18.980045,"Humidity":"43.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.55 degC","Pressure":"1014.0 hPa","CO2 level":"640.0 ppm","VOC level":"163.0 ppb"}
+{"time":"2021-12-12 12:55:21.316350,"Humidity":"43.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.54 degC","Pressure":"1014.0 hPa","CO2 level":"636.0 ppm","VOC level":"150.0 ppb"}
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+{"time":"2021-12-12 13:00:06.079005,"Humidity":"43.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.55 degC","Pressure":"1013.98 hPa","CO2 level":"629.0 ppm","VOC level":"144.0 ppb"}
+{"time":"2021-12-12 13:00:23.529151,"Humidity":"43.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.55 degC","Pressure":"1013.98 hPa","CO2 level":"629.0 ppm","VOC level":"144.0 ppb"}
+{"time":"2021-12-12 13:05:08.027980,"Humidity":"42.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.55 degC","Pressure":"1014.0 hPa","CO2 level":"617.0 ppm","VOC level":"146.0 ppb"}
+{"time":"2021-12-12 13:05:26.994361,"Humidity":"42.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.55 degC","Pressure":"1014.0 hPa","CO2 level":"617.0 ppm","VOC level":"146.0 ppb"}
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+{"time":"2021-12-12 13:10:04.559493,"Humidity":"41.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.54 degC","Pressure":"1013.96 hPa","CO2 level":"614.0 ppm","VOC level":"140.0 ppb"}
+{"time":"2021-12-12 13:10:10.937130,"Humidity":"41.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.54 degC","Pressure":"1013.96 hPa","CO2 level":"614.0 ppm","VOC level":"140.0 ppb"}
+{"time":"2021-12-12 13:10:28.963410,"Humidity":"41.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.54 degC","Pressure":"1013.96 hPa","CO2 level":"614.0 ppm","VOC level":"140.0 ppb"}
+{"time":"2021-12-12 13:15:06.919761,"Humidity":"40.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.58 degC","Pressure":"1013.92 hPa","CO2 level":"618.0 ppm","VOC level":"138.0 ppb"}
+{"time":"2021-12-12 13:15:31.455086,"Humidity":"40.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.58 degC","Pressure":"1013.92 hPa","CO2 level":"618.0 ppm","VOC level":"138.0 ppb"}
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+{"time":"2021-12-12 13:20:04.095153,"Humidity":"40.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.63 degC","Pressure":"1013.96 hPa","CO2 level":"632.0 ppm","VOC level":"122.0 ppb"}
+{"time":"2021-12-12 13:20:08.937546,"Humidity":"40.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.63 degC","Pressure":"1013.96 hPa","CO2 level":"632.0 ppm","VOC level":"122.0 ppb"}
+{"time":"2021-12-12 13:20:33.971636,"Humidity":"40.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.63 degC","Pressure":"1013.96 hPa","CO2 level":"632.0 ppm","VOC level":"122.0 ppb"}
+{"time":"2021-12-12 13:25:07.020560,"Humidity":"39.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.66 degC","Pressure":"1013.98 hPa","CO2 level":"637.0 ppm","VOC level":"108.0 ppb"}
+{"time":"2021-12-12 13:25:36.621910,"Humidity":"39.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.66 degC","Pressure":"1013.98 hPa","CO2 level":"637.0 ppm","VOC level":"108.0 ppb"}
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+{"time":"2021-12-12 13:30:04.579564,"Humidity":"39.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.66 degC","Pressure":"1014.04 hPa","CO2 level":"631.0 ppm","VOC level":"99.0 ppb"}
+{"time":"2021-12-12 13:30:08.960828,"Humidity":"39.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.66 degC","Pressure":"1014.04 hPa","CO2 level":"631.0 ppm","VOC level":"99.0 ppb"}
+{"time":"2021-12-12 13:30:38.537439,"Humidity":"39.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.66 degC","Pressure":"1014.04 hPa","CO2 level":"631.0 ppm","VOC level":"99.0 ppb"}
+{"time":"2021-12-12 13:35:06.972339,"Humidity":"39.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.65 degC","Pressure":"1014.0 hPa","CO2 level":"630.0 ppm","VOC level":"91.0 ppb"}
+{"time":"2021-12-12 13:35:11.345101,"Humidity":"39.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.65 degC","Pressure":"1014.0 hPa","CO2 level":"630.0 ppm","VOC level":"91.0 ppb"}
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+{"time":"2021-12-12 13:40:07.080202,"Humidity":"39.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.64 degC","Pressure":"1014.02 hPa","CO2 level":"625.0 ppm","VOC level":"97.0 ppb"}
+{"time":"2021-12-12 13:40:13.968948,"Humidity":"39.5 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.64 degC","Pressure":"1014.02 hPa","CO2 level":"625.0 ppm","VOC level":"97.0 ppb"}
+{"time":"2021-12-12 13:45:16.353130,"Humidity":"39.0 %rH","Radon ST avg":"79 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.61 degC","Pressure":"1014.02 hPa","CO2 level":"600.0 ppm","VOC level":"97.0 ppb"}
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+ERROR: Could not find device.
+GUIDE: (1) Please verify the serial number.
+       (2) Ensure that the device is advertising.
+       (3) Retry connection.
+Device serial number: 2930026532
+['Humidity', 'Radon ST avg', 'Radon LT avg', 'Temperature', 'Pressure', 'CO2 level', 'VOC level']
+{"time":"2021-12-12 14:00:11.237815,"Humidity":"38.0 %rH","Radon ST avg":"77 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.67 degC","Pressure":"1014.12 hPa","CO2 level":"593.0 ppm","VOC level":"82.0 ppb"}
+{"time":"2021-12-12 14:05:13.924471,"Humidity":"37.5 %rH","Radon ST avg":"77 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.66 degC","Pressure":"1014.16 hPa","CO2 level":"598.0 ppm","VOC level":"80.0 ppb"}
+{"time":"2021-12-12 14:10:16.787245,"Humidity":"37.5 %rH","Radon ST avg":"77 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.67 degC","Pressure":"1014.24 hPa","CO2 level":"602.0 ppm","VOC level":"72.0 ppb"}
+{"time":"2021-12-12 14:15:18.867640,"Humidity":"37.0 %rH","Radon ST avg":"77 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.68 degC","Pressure":"1014.26 hPa","CO2 level":"609.0 ppm","VOC level":"71.0 ppb"}
+{"time":"2021-12-12 14:20:21.786667,"Humidity":"37.0 %rH","Radon ST avg":"77 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.71 degC","Pressure":"1014.26 hPa","CO2 level":"614.0 ppm","VOC level":"75.0 ppb"}
+{"time":"2021-12-12 14:25:24.569761,"Humidity":"36.5 %rH","Radon ST avg":"77 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.72 degC","Pressure":"1014.16 hPa","CO2 level":"620.0 ppm","VOC level":"67.0 ppb"}
+{"time":"2021-12-12 14:30:26.873878,"Humidity":"36.5 %rH","Radon ST avg":"77 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.72 degC","Pressure":"1014.2 hPa","CO2 level":"627.0 ppm","VOC level":"69.0 ppb"}
+{"time":"2021-12-12 14:35:32.203049,"Humidity":"36.5 %rH","Radon ST avg":"77 Bq/m3","Radon LT avg":"71 Bq/m3","Temperature":"24.74 degC","Pressure":"1014.12 hPa","CO2 level":"610.0 ppm","VOC level":"59.0 ppb"}
